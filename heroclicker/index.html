@@ -1,0 +1,107 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="CSS/interface.css" />
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"> 
+	</head>
+	<body>
+	<div id="main">
+		<div id="container">
+			<div>
+				<p id="dpst">DPS</p><p id="dps">0</p>
+			</div>
+			<div>
+				<img src="img/coin50px.png" alt="coin" height="30" width="30" id="coin">
+				<img src="img/coin50px.png" alt="coin" height="20" width="20" id="coin2">
+				<p id="coins">0</p>
+			</div>
+			<div id="clicker">
+				<button type="button" onClick="cookieClick(1)" id="Click">Click Me!</button>
+			</div>
+
+			<div id="hero1">
+				<button type="button" 	onClick="buy(1)" id="her1">Hero 1 dmg: <span id="her1dmg">1</span></button>
+				<p>Heroes: </p><span id="her1s">0</span>
+				<p>Cost: </p><span id="her1Cost">10</span>
+				<p>DPS: </p><span id="her1dps">0</span>
+			</div>
+			
+			<div id="hero2">
+				<button type="button" 	onClick="buy(2)" id="her2">Hero 2 dmg: <span id="her2dmg">5</span></button>
+				<p>Heroes: </p><span id="her2s">0</span>
+				<p>Cost: </p><span id="her2Cost">250</span>
+				<p>DPS: </p><span id="her2dps">0</span>
+			</div>
+			
+			<div id="hero3">
+				<button type="button" 	onClick="buy(3)" id="her3">Hero 3 dmg: <span id="her3dmg">170</span></button>
+				<p>Heroes: </p><span id="her3s">0</span>
+				<p>Cost: </p><span id="her3Cost">8500</span>
+				<p>DPS: </p><span id="her3dps">0</span>
+			</div>
+			
+			<div id="hero4">
+				<button type="button" 	onClick="buy(4)" id="her4">Hero 4 dmg: <span id="her4dmg">2000</span></button>
+				<p>Heroes: </p><span id="her4s">0</span>
+				<p>Cost: </p><span id="her4Cost">200000</span>
+				<p>DPS: </p><span id="her4dps">0</span>
+			</div>
+			
+			<div id="hero5">
+				<button type="button" 	onClick="buy(5)" id="her5">Hero 5 dmg: <span id="her5dmg">30000</span></button>
+				<p>Heroes: </p><span id="her5s">0</span>
+				<p>Cost: </p><span id="her5Cost">30000000</span>
+				<p>DPS: </p><span id="her5dps">0</span>
+			</div>
+			
+			<div id="hero6">
+				<button type="button" 	onClick="buy(6)" id="her6">Hero 1 dmg: <span id="her6dmg">1</span></button>
+				<p>Heroes: </p><span id="her6s">0</span>
+				<p>Cost: </p><span id="her6Cost">100000000</span>
+				<p>DPS: </p><span id="her6dps">0</span>
+			</div>
+
+		</div>
+		<div id="upgrades">
+			<div id="up1">
+	
+				<p id="level">level</p>
+			</div>
+			
+			<div id="up2">
+				</p><span id="up2Cost">50000</span>
+				<button type="button" onClick="upgrade(2)" id="up2b"><span id="up2lvl">0</span></button>
+			</div>
+			
+			<div id="up3">
+				</p><span id="up3Cost">100000</span>
+				<button type="button" onClick="upgrade(3)" id="up3b"><span id="up3lvl">0</span></button>
+			</div>
+			
+			<div id="up4">
+				</p><span id="up4Cost">1000000</span>
+				<button type="button" onClick="upgrade(4)" id="up4b"><span id="up4lvl">0</span></button>
+			</div>
+			
+			<div id="up5">
+				</p><span id="up5Cost">10000000</span>
+				<button type="button" onClick="upgrade(5)" id="up5b"><span id="up5lvl">0</span></button>
+			</div>
+			
+			<div id="up6">
+				</p><span id="up6Cost">100000000</span>
+				<button type="button" onClick="upgrade(6)" id="up6b"><span id="up6lvl">0</span></button>
+			</div>
+			
+			<div id="up7">
+				</p><span id="up7Cost">1000000000</span>
+				<button type="button" onClick="upgrade(7)" id="up7b"><span id="up7lvl">0</span></button>
+			</div>
+			
+		</div>
+		
+	</div>
+
+	<script type="text/javascript" src="JS/main.js"></script>
+	</body>
+</html>

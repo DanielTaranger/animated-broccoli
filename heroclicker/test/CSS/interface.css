@@ -1,0 +1,110 @@
+html {
+	font-family: 'Roboto', sans-serif;
+	background-color: #1e2428;
+	color: white;
+	  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+#main {
+	width: 810px;
+	margin: 0px auto;
+	margin-top: 50px;
+}
+
+#container {
+	width: 600px;
+	float: right;
+	margin: 0px;
+	margin-left: 10px;
+}
+
+#upgrades{
+	width: 200px;
+	text-align: right;
+	padding-top: 78px;
+}
+
+button {
+	width: 200px;
+	height: 50px;
+	border: none;
+	background-color: white;
+	border-radius: 4px 4px 4px 4px;
+}
+
+#level {
+	margin-top: 10px;
+	display: inline-block;
+	font-size: 140%;
+}
+#up1 {
+	width: 200px;
+	height: 50px;
+	vertical-align: middle;
+}
+#up1b{
+	visibility: hidden;
+}
+
+#up1b, #up2b, #up3b, #up4b, #up5b, #up6b, #up7b {
+	width: 200px;
+}
+
+button#up1b,button#up2b,button#up3b,button#up4b,button#up5b,button#up6b,button#up7b{
+	width: 50px;
+	height: 50px;
+	border: none;
+	background-color: #0e6597;
+	color: white;
+	border-radius: 4px 4px 4px 4px;
+}
+
+#coin {
+	float: left;
+}
+
+#coin2 {
+	position: relative;
+	top: 2px;
+	right: 3px;
+}
+
+#dpst {
+	font-size: 150%;
+}
+
+#dps {
+	font-size: 150%;
+	padding-left: 20px;
+}
+
+#coins {
+	font-size: 150%;
+	padding-left: 12px;
+}
+
+h1 {
+	display: inline-block;
+}
+
+span {
+	display: inline;
+}
+
+p {
+	display: inline;
+}
+
+div {
+	margin-top: 10px;
+	
+}
+
+#hero1,#hero2,#hero3,#hero4,#hero5,#hero6,#up1,#up2,#up3,#up4,#up5,#up6,#up7  {
+	opacity : 0.03;
+	-webkit-transition: opacity 1s; /* Safari */
+    transition: opacity 1s;
+}
+
