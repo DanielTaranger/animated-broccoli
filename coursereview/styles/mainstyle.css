@@ -1,0 +1,529 @@
+﻿#logo {
+	width: 353px;
+	height: 70px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px; 
+	background-color: #2e3031;
+	text-align: center;
+	padding-top:20px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#wrapper {
+	position: relative;
+	background-color: white;
+}
+
+#header{
+	background-color: #2e3031;
+	background-image: url(http://www.transparenttextures.com/patterns/inspiration-geometry.png);
+	width: 100%;
+	height: 90px;
+	border-bottom: 10px solid #00cbd8;
+	color: white;	
+}
+
+#footer {
+	position: relative;
+	bottom: 0px;
+	background-color: #2e3031;
+	border-top: 10px solid #00cbd8;
+	background-image: url(http://www.transparenttextures.com/patterns/inspiration-geometry.png);
+	width: 100%;
+	height: 100px;
+	color: white;
+}
+
+
+#logoc  #img {
+	position: relative;
+	width: 75px;
+	height: 59px;
+	display: inline-block;
+	margin: 0px;
+	float: left;
+	background-repeat: no-repeat;
+	background-image: url("../img/logo2.png");
+	-webkit-transition: background-image 0.6s;
+    -moz-transition: background-image 0.6s;
+    -o-transition: background-image 0.6s;
+    transition: background-image 0.6s;
+}
+
+#logoc   #img:hover {
+	background-image: url("../img/logo.png");
+}
+
+#heading {
+	margin: 0px;
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 150%;
+	margin-bottom: 10px;
+	overflow:hidden;
+	color: #40484c;
+}
+
+#logoheader {
+	font-size: 171%;
+	display: inline-block;
+	margin-top: 0px;
+	position: relative;
+}
+
+#uib {
+	font-size: 168%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#courser {
+	font-size: 98%;
+	font-family: 'Roboto', sans-serif;
+}
+
+#menu {
+	padding-top: 5px;
+	padding-bottom: 2px;
+}
+
+body {
+	background-color: #2e3031;
+	width:100%;
+	height:100%;
+	color: black;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+#content {
+	margin: 0 auto;
+	width: 45%;
+	height: 100%;
+	margin-bottom: 160px;
+	min-height: 450px;
+}
+
+#menu li {
+	display: inline-block;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#menu li#hidden {
+	visibility: hidden;
+}
+
+#menu li a {
+	text-decoration: none;
+	color: #5e6c73;
+}
+
+#menu li a:hover {
+	text-decoration: underline;
+	color: gray;
+}
+
+#logoc {
+	text-decoration: underline;
+	color: white;
+}
+
+
+#navlist {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	padding: 0px;
+}
+
+
+.review {
+	background-color: #f4f4f4;
+	color: #646464;
+	height: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	padding-left: 25px;
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
+
+.courses {
+	background-color: #f4f4f4;
+	height: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	padding-left: 25px;
+	padding-bottom: 20px;
+	padding-top: 2px;
+	word-wrap: break-word;
+
+}
+
+a.courselink{
+	text-decoration: none;
+	font-size: 200%;
+	color: #646464;
+}
+
+a.courselink:hover {
+	text-decoration: underline;
+	color: #c0c0c0;
+}
+
+.courses a {
+	text-decoration: none;
+	color: gray;
+}
+
+.courses a:hover {
+	color: #c90b7b;
+	text-decoration: underline;
+
+}
+
+.divider {
+	color: #00cbd8;
+	display: inline;
+	font-size: 110%;
+	font-weight: bold;
+}
+
+.button {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.button a {
+	text-decoration: none;
+	color: white;
+	background-color: #00cbd8;
+	font-size: 90%;
+	padding-left: 4px;
+	padding-right: 6px;
+	border-radius: 2px 2px 2px 2px;
+}
+
+.button a:hover {
+	background-color: #7cc5d5;
+	color: white;
+}
+
+span#postdate {
+	color: gray;
+	font-size: 80%;
+	float: right;
+}
+
+span#alert {
+	font-size: 110%;
+	font-weight: bold;
+	color: #c21540;
+	margin-right: 8px;
+}
+
+span#logoLink {
+	position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+  z-index: 1;
+ 
+  background-image: url('img/empty.gif');
+}
+
+.cid {
+	display: inline-block;
+	word-wrap: break-word;
+	margin-right: 3px;
+}
+
+.cid  p{
+	font-size: 220%;
+	margin: 0px;
+	color: #40484c;
+	position:relative;
+	left: -34px;
+	z-index: 2;
+}
+
+.uname {
+	border-top: 1px dashed gray;
+}
+
+.uname a{
+	color: #62adbd;
+	text-decoration: none;
+}
+
+.rtext {
+	word-wrap: break-word;
+	padding-right: 10px;
+	color: #646464;
+}
+
+#ctext {
+	color: #444444;
+	word-wrap: break-word;
+}
+
+.rvote {
+	width: 100%;
+	display: inline-block;
+	color: #bebebe;
+}
+
+.rvote a {
+	width: 23px;
+	height: 23px;
+	text-decoration: none;
+	float: left;
+}
+
+.rvote a:hover {
+	opacity: 0.5;
+}
+
+.rvote p {
+	text-align: center;
+	margin: 0px;
+	float: left;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.rvote img {
+	width: 19px;
+	height: 19px;
+}
+
+img {
+	text-decoration: none; 
+	border: 0px
+}
+
+#searchicon {
+	height: 21px;
+	width: 21px;
+	background-image: url("../img/searchicon.png");
+	margin-bottom: 16px;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+form#login {
+	width: 173px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+.field {
+	width: 100%;
+}
+
+form#review {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+form#searchfield{
+	width: 95%;
+	margin-top: 10px;
+	z-index: 5;
+}
+
+form#searchfield input{
+	width: 95%;
+}
+
+#livesearch {
+		width: 95%;
+		background-color: white;
+		outline: 0;
+}
+
+#livesearch  textarea:focus, #livesearch input:focus{
+    outline: 0;
+}
+
+#livesearch a{
+	text-decoration: none;
+	color: #6d6d6d;
+	font-size: 100%;
+}
+
+#livesearch a:hover {
+	text-decoration: underline;
+}
+
+div#register {
+	display: inline-block;
+	margin-top: 5px;
+	float:right;
+}
+
+div#register a{
+	width: 84px;
+	height: 22px;
+	text-align: center;
+	font-size: 85%;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	margin: 0 auto;
+	padding-top: 1px;
+	border-radius: 3px;
+	background-color: #C84773;
+	border-radius: 2px;
+}
+
+div#register a:hover {
+	color: white;
+	background-color: #DA8195;
+}
+
+#subbutton  {
+	display: inline;
+	float: right;
+	width: 71px;
+	height: 21px;
+	margin-top: 0px;
+}
+
+#subbutton input {
+	height: 23px;
+	width: 73px;
+	color: #e7feff;
+	background-color: #00cbd8;
+	border: none;
+	border-radius: 2px 2px 2px 2px;
+}
+
+#logbutton  {
+	display: inline-block;
+	width: 84px;
+	height: 21px;
+	margin-top:5px;
+}
+
+#logbutton input {
+	height: 23px;
+	width: 84px;
+	color: white;
+	background-color: #00cbd8;
+	border: none;
+	border-radius: 2px;
+}
+
+#logbutton input:hover{
+	background-color: #61ECF5;
+}
+
+p.formp {
+	display: block;
+	margin: 0px;
+	font-size: 100%;
+	color: #717e85;
+}
+
+p.formh {
+	display: inline-block;
+	margin: 0px;
+	font-size: 100%;
+	color: #717e85;
+	margin-left: 5px;
+}
+
+p#formr {
+	display: inline-block;
+	margin: 0px;
+	font-size: 100%;
+	color: #717e85;
+}
+
+p#formy {
+	display: inline-block;
+	margin: 0px;
+	font-size: 100%;
+	color: #717e85;
+	float: right;
+}
+
+p#formu {
+	display: inline-block;
+	margin: 0px;
+	font-size: 80%;
+	color: #717e85;
+	float: left;
+	margin-right: 9px;
+}
+
+textarea {
+	width: 100%;
+    resize: none;
+	height: 120px;
+}
+
+#cinput {
+	width: 100%;
+}
+
+@media all and (max-width: 1224px) {
+	#content {
+		width: 70%;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	#content {
+		width: 70%;
+	}
+}
+
+@media all and (max-width: 800px) {
+	#content {
+		width: 90%;
+	}
+}
+
+@media all and (max-width: 578px) {
+	#content {
+		width: 90%;
+	}
+}
+
+@media all and (max-width: 480px) {
+	#content {
+		width: 94%;
+		padding-right: 3%;
+		padding-left: 3%;
+	}
+	
+	form#review {
+		width: 90%;
+	}
+
+	#logo {
+		width: 100%;
+		font-size: 80%;
+		padding: 0px;
+		margin: 0px;
+		margin-top: 15px;
+	}
+
+	#header {
+		height: 70px;
+	}
+}

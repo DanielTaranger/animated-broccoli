@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title><?php echo htmlspecialchars($title);?></title>
+		<link rel="stylesheet" href="styles/mainstyle.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Titillium+Web:700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
+		<meta name="viewport" content="width=device-width">
+	</head>
+	<body>
+		<div id="wrapper">
+		<div id="header">
+			<div id="logo">
+				<div id="logoheader">
+				<a href="index.php"><span id="logoLink"></span></a>
+				<a id="logoc" href="index.php"><div id="img"></div></a>
+				<span id="uib">UiB</span> <span id="courser">Course Review</span></div>
+			</div>
+	
+		</div>
+		<div id="menu">
+			<ul id="navlist">
+				<li><a href="index.php">Introduction</a></li>
+				<li><a href="createreview.php">Create Review</a></li>
+				<li><a href="reviews.php">Reviews</a></li>
+				<li><a href="courses.php">Courses</a></li>
+				<?php echo $acc;?>
+				<?php echo $logon;?>
+				
+			</ul>
+		</div>
+	
+		<div id="content">
